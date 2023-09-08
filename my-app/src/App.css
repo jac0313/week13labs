@@ -1,0 +1,85 @@
+
+.inputForm {
+  display:block
+}
+/* sets form display to take up as much space as possible */
+
+.navBar {
+  width: 100vw;
+  background-color: rgb(172, 61, 137);
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+}
+/* styles width and text color of nav bar */
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* puts the list horizontal and centers */
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+/* gets rid of bullets from list */
+
+nav ul li:hover {
+  color: orange
+}
+/* creates hover for links of nav bar */
+
+.inputForm {
+  margin:50px 0px; padding:0px;
+  text-align:center;
+}
+/* centers text of input form with padding */
+
+form input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/* changes size of input form, adds margin and padding */
+
+form label {
+  color: rgb(172, 61, 137) ;
+}
+/* changes text color on input label */
+
+form button {
+  background-color: rgb(172, 61, 137);
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+/* styles the form button with size, color, text alignment, and rounding the edges */
+
+form button:hover {
+  color: orange
+}
+/* creates hover for submit button */
+
+h3 {
+  margin:25px 5px; 
+  text-align:center;
+  color: rgb(172, 61, 137); 
+}
+/* styles the h3 with color and centering */
+
+.borderBox {
+  border: 1px solid rgb(172, 61, 137);
+  display: block;
+}
+/*styles border around h3*/
+
+
+
